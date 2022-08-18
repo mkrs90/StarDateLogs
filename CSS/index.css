@@ -116,25 +116,20 @@ li {
     color: black;
 }
 
-
-.logSection {
-
-}
-
 .log .logSection {
-    border: 5px solid cyan;
-    border-radius: 50px;
-    background: rgba(6, 104, 109, 0.7);
+    border: 5px solid #20BEC1;
+    border-radius: 40px;
+    background: rgba(10, 60, 61, 0.7);
     display: inline-block;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 30px;
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
     align-items: center;
-    font-family: 'PT Sans Narrow', sans-serif;
-    color: greenyellow;
+    font-family: 'Kanit', sans-serif;
+    color: #41FF00;
 }
 

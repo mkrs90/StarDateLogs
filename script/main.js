@@ -59,8 +59,15 @@ const randomEventList = ['Alien attacked one of our outter rings resulting in mi
                     'A Klingon warship was located in this sector. Reports indicate their captain wishes to communicate. Their intention are unknown. USS Enterprise alerted'
                     ]
 
-const galaxyList = [
-
+const galaxyList = ['Pisces Dwarf',
+                    'Andromeda I',
+                    'Draco Dwarf',
+                    'Phoenic Dwarf',
+                    'Leo II',
+                    'NDC 6946',
+                    'EGSY8p7',
+                    'Pinwheel',
+                    'Centaurus A'
                 ]
 
 function printCaptainsLog() {
@@ -74,10 +81,12 @@ function printCaptainsLog() {
     let peaceOffering = peaceOfferingList[getRandNum(peaceOfferingList)];
     let event = randomEventList[getRandNum(randomEventList)];
     let verb = verbList[getRandNum(verbList)];
+    let galaxy = galaxyList[getRandNum(galaxyList)];
 
     let fullstring = `Captains Log: ${event}. Afterwards we encountered
     the ${alien} species on a ${location} type planet. As custom, we gave them ${peaceOffering}
-    in hopes of befriending this alien species, they ${verb} the gift. Later we ${action}. End Captains Log...`;
+    in hopes of befriending this alien species, they ${verb} the gift. Later we ${action}. A new star was 
+    discovered in the ${galaxy} galaxy. End Captains Log...`;
     return fullstring;
 }
 
